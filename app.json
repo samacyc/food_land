@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Food Land",
+    "slug": "food_land",
+    "platforms": [
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    } ,
+    "android" : {
+      "package" : "com.zaagency.landfood" ,
+      "versionCode" : 1
+    }
+  }
+}
